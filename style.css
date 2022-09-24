@@ -1,0 +1,41 @@
+table {
+    display: inline-block;
+}
+
+.m {
+    padding-right: 10px;
+}
+
+.m_ {
+    padding: 0 5px 0 3px;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.s {
+    padding-left: 20px;
+}
+
+.o {
+    margin: 0;
+}
+
+.c {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.c:hover {
+    background: lightgray;
+}
+
+.m_:hover {
+    background: lightgray;
+}
+
+td {
+    font-family: 'Noto Sans JP';
+    font-size: 25px;
+}

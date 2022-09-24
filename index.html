@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>甚平メニュー</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="m">とんかつ弁当</td><td>税込 680円</td>
+            <td class="s"></td><td class="m_" onclick="n1()">普通</td>
+            <td class="s"></td><td class="m_" onclick="s1()">小盛</td>
+        </tr>
+
+        <tr>
+            <td class="m">豚しょうが焼き弁当</td><td>税込 700円</td>
+            <td class="s"></td><td class="m_" onclick="n2()">普通</td>
+            <td class="s"></td><td class="m_" onclick="s2()">小盛</td>
+        </tr>
+
+        <tr>
+            <td class="m">から揚げ弁当</td><td>税込 680円</td>
+            <td class="s"></td><td class="m_" onclick="n3()">普通</td>
+            <td class="s"></td><td class="m_" onclick="s3()">小盛</td>
+            <td class="s"></td><td class="m_" onclick="h3()">日替</td>
+        </tr>
+
+        <tr>
+            <td class="m">桜姫とりステーキ弁当</td><td>税込 680円</td>
+            <td class="s"></td><td class="m_" onclick="n4()">普通</td>
+            <td class="s"></td><td class="m_" onclick="s4()">小盛</td>
+            <td class="s"></td><td class="m_" onclick="h4()">日替</td>
+        </tr>
+
+        <tr>
+            <td class="m">桜姫とりステーキ丼</td><td>税込 660円</td>
+            <td class="s"></td><td class="m_" onclick="n5()">普通</td>
+            <td class="s"></td><td class="m_" onclick="s5()">小盛</td>
+        </tr>
+
+        <tr>
+            <td class="m">煮込みチーズハンバーグ弁当</td><td>税込 640円</td>
+            <td class="s"></td><td class="m_" onclick="n6()">普通</td>
+            <td class="s"></td><td class="m_" onclick="s6()">小盛</td>
+            <td class="s"></td><td class="m_" onclick="h6()">日替</td>
+        </tr>
+
+        <tr>
+            <td class="m">さば味噌</td><td>税込 520円</td>
+            <td class="s"></td><td class="m_" onclick="n7()">普通</td>
+            <td class="s"></td><td class="m_" onclick="s7()">小盛</td>
+        </tr>
+
+        <tr>
+            <td class="m">えび天丼</td><td>税込 580円</td>
+            <td class="s"></td><td class="m_" onclick="n8()">普通</td>
+            <td class="s"></td><td class="m_" onclick="s8()">小盛</td>
+        </tr>
+
+        <tr><td style="padding: 10px;"></td></tr>
+
+        <tr>
+            <td>値引 サービス券</td><td>税込-100円</td>
+            <td></td><td onclick="c1()" class="c">１枚</td>
+            <td></td><td onclick="c2()" class="c">２枚</td>
+            <td></td><td onclick="c3()" class="c">３枚</td>
+        </tr>
+
+        <tr><td style="padding: 10px;"></td></tr>
+
+        <tr><td>合計：</td><td><p id="output" class="o">0</p></td><td></td><td>円</td><td></td><td>税込</td></tr>
+    </table>
+</body>
+</html>
