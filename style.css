@@ -13,11 +13,16 @@ table {
     text-decoration: underline;
 }
 
+.m_:hover {
+    background: lightgray;
+}
+
 .s {
     padding-left: 20px;
 }
 
 .o {
+    text-decoration: underline;
     margin: 0;
     font-weight: bold;
 }
@@ -29,10 +34,6 @@ table {
 }
 
 .c:hover {
-    background: lightgray;
-}
-
-.m_:hover {
     background: lightgray;
 }
 
